@@ -1,0 +1,14 @@
+<form action="/quiz/{{name}}" method="post">
+    {% csrf_token %}
+  <div class="imgcontainer">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Enter Your Name</b></label>
+    <input type="text" placeholder="Enter Username" name="name" required>
+    <button type="submit">Login</button>
+    <label>
+    </label>
+  </div>
+
+</form>
